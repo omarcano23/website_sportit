@@ -1,0 +1,743 @@
+/* Estilos generales */
+body {
+    font-family: 'Be Vietnam', sans-serif;
+}
+
+/* Estilos para Vista Desktop */
+@media (min-width: 1024px) {
+    /* Header */
+    header {
+        width: 80%;
+        height: 100px;
+        padding: 30px 165px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo img {
+        width: 107.68px;
+        height: 25px;
+    }
+
+    nav {
+        width: 100px;
+        height: 23px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 28px;
+        display: block;
+    }
+
+    nav a {
+        font-family: 'Be Vietnam', sans-serif;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 23px;
+        letter-spacing: 0em;
+        text-align: left;
+        width: 59px;
+        height: 23px;
+        background: #242E52;
+        color: #fff;
+        text-decoration: none;
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
+
+    .contact-button button {
+        font-family: 'Be Vietnam', sans-serif;
+        font-size: 10px;
+        width: 120px;
+        height: 30px;
+        padding: 10px;
+        font-weight: 500;
+        line-height: 10px;
+        letter-spacing: 0em;
+        text-align: center;
+        background-color: #8B48BF;
+        color: #fff;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        display: block;
+    }
+
+    /* Hero Section */
+    .hero {
+        width: 93%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .athlete-image img {
+        width: 540px;
+        height: 461.07px;
+    }
+
+    .hero-text {
+        width: 35%;
+        text-align: right;
+    }
+
+    .live-text {
+        width: 450px;
+        height: 228px;
+        font-family: 'Be Vietnam', sans-serif;
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 57px;
+        letter-spacing: -0.035em;
+        text-align: right;
+        background: #fff;
+        color: #232C50;
+        padding: 20px;
+    }
+
+    .description-text {
+        width: 450px;
+        height: 71px;
+        font-family: 'Be Vietnam', sans-serif;
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 26px;
+        letter-spacing: 0em;
+        text-align: right;
+        background: #fff;
+        color: #000000;
+        padding: 10px 20px;
+    }
+
+    .hero-contact-button {
+        width: 120px;
+        height: 30px;
+        padding: 10px;
+        border-radius: 50px;
+        background-color: #8B48BF;
+        color: #fff;
+        font-family: 'Be Vietnam', sans-serif;
+        font-size: 10px;
+        border: none;
+        cursor: pointer;
+    }
+
+    /* Spacer */
+    .spacer {
+        margin-top: 10px;
+    }
+
+    /* Stripe Section */
+    .stripe {
+        width: 100%;
+        height: 168px;
+        padding: 40px 0;
+        background: #8B48BF;
+    }
+    
+    .stripe-left {
+        width: 50%;
+        float: left;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 41px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #FFFFFF;
+    }
+
+    .stripe-right {
+        width: 50%;
+        float: right;
+        font-family: 'Be Vietnam', sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #FFFFFF;
+    }
+
+    /* Blocks Section */
+    .blocks {
+        width: 1440px;
+        display: flex;
+        justify-content: space-between;
+        padding: 40px 0;
+        align-items: center;
+    }
+
+    .block {
+        width: 30%;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+    }
+
+    .oval {
+        width: 50px;
+        height: 50px;
+        background-color: #8B48BF;
+        color: #fff;
+        border-radius: 50%;
+        font-size: 24px;
+        font-weight: 700;
+        text-align: center;
+        line-height: 50px;
+    }
+
+    .block-subtitle {
+        font-size: 18px;
+        font-weight: 700;
+        margin-top: 10px;
+    }
+
+    .block-description {
+        font-size: 14px;
+        font-weight: 500;
+        margin-top: 10px;
+    }
+
+    /* Best of the Month */
+    .best-of-month {
+        width: 424px;
+        height: 61px;
+        background-color:#fff;
+        color:  #242E53;
+        text-align: center;
+        font-size: 39px;
+        font-weight: 700;
+        line-height: 61px;
+        letter-spacing: -0.01em;
+        margin: 20px auto;
+    }
+
+    /* Athlete Blocks */
+    .athlete-blocks {
+        width: 1440px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+
+    .athlete-block {
+        width: 30%;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+    }
+
+    .athlete-image-circular img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+
+    .athlete-block p {
+        margin-top: 10px;
+    }
+
+    /* Get to Know the Best Teams */
+    .get-to-know {
+        width: 1440px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+
+    .get-to-know-text {
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: -0.005em;
+    }
+
+    .get-to-know-button {
+        width: 134px;
+        height: 44px;
+        padding: 10px;
+        border-radius: 50px;
+        background-color: #fff;
+        color: #8B48BF;
+        border: none;
+        cursor: pointer;
+    }
+
+    /* Footer styles */
+    footer {
+        width: 1440px;
+        padding: 20px 0;
+        background-color: #fff;
+    }
+
+    .footer-menu ul {
+        /* Estilos para el menú del footer */
+        list-style: none;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-menu ul li {
+        margin: 0 20px;
+    }
+
+    .footer-menu ul li a {
+        text-decoration: none;
+        color: #000;
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    .subscribe {
+        /* Estilos para la sección de suscripción */
+        display: flex;
+        align-items: center;
+    }
+
+    .subscribe input[type="text"] {
+        /* Estilos para el campo de entrada */
+        border: none;
+        border-radius: 25px;
+        padding: 10px 20px;
+        font-size: 14px;
+        margin-right: 10px;
+    }
+
+    .subscribe button {
+        /* Estilos para el botón de suscripción */
+        width: 80px;
+        height: 40px;
+        border-radius: 25px;
+        background-color: #8B48BF;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+    }
+}
+
+/* Estilos para Vista Mobile */
+@media (max-width: 1023px) {
+    /* Header */
+    header {
+        /* Estilos para el header en vista mobile */
+        width: 93%;
+        padding: 20px;
+        background-color: #ffffff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo img {
+        /* Estilos para el logo en vista mobile */
+        width: 93%;
+        height: auto;
+    }
+
+    .menu-icon {
+        /* Estilos para el ícono de menú en vista mobile */
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+    }
+    
+    i{
+        font-size: 60px;
+    }
+
+    nav ul {
+        /* Estilos para la barra de navegación en vista mobile */
+        list-style: none;
+        display: none;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        background-color: #ffffff;
+        box-shadow: 0px 4px 8px 0px #00000040;
+    }
+
+    nav.active ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav ul li {
+        /* Estilos para los elementos de la barra de navegación en vista mobile */
+        margin: 0;
+        padding: 10px 20px;
+        width: 93%;
+        text-align: center;
+    }
+
+    nav ul li a {
+        /* Estilos para los enlaces de navegación en vista mobile */
+        text-decoration: none;
+        color: #000;
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    .contact-button button {
+        display: none;
+    }
+    .mobile-menu {
+        display: none; /* Ocultar en vista de móvil inicialmente */
+    }
+
+    /* Hero Section */
+    .hero {
+        /* Estilos para la sección hero en vista mobile */
+        display: block;
+        padding: 20px;
+    }
+
+    .athlete-image img {
+        /* Estilos para la imagen del atleta en vista mobile */
+        width: 93%;
+        height: auto;
+    }
+
+    .hero-text {
+        /* Estilos para el texto en la sección hero en vista mobile */
+        text-align: right;
+        margin-top: 10px;
+    }
+
+    .live-text {
+        /* Estilos para el texto "LIVE" en vista mobile */
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 40px;
+        background-color: #fff;
+        color: #232C50;
+        padding: 10px;
+        margin-bottom: 0px;
+    }
+
+    .description-text {
+        /* Estilos para la descripción en vista mobile */
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: right;
+        background-color: #fff;
+        color: #000;
+        padding: 10px 20px;
+        margin-top: 5px;
+
+    }
+
+    .hero-contact-button {
+        /* Estilos para el botón de contacto en vista mobile */
+        margin-top: 10px;
+        font-size: 10px;
+        width: 100px;
+        padding: 10px 20px;
+        border-radius: 50px;
+        background-color: #8B48BF;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+    }
+
+    /* Stripe Section */
+    .stripe {
+        /* Estilos para la sección stripe en vista mobile */
+        width: 93%;
+        padding: 10px;
+        background-color: #3CDDF3;
+        ;
+    }
+
+    .stripe-left{
+        font-family: 'Be Vietnam', sans-serif;
+        font-size: 36px;
+        font-weight: 700;
+        margin-left: 10px;
+        line-height: 41px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #FFFFFF;
+
+
+    }
+
+    .stripe-right {
+        /* Estilos para el lado izquierdo y derecho de la sección stripe en vista mobile */
+        width: 93%;
+        font-family: 'Be Vietnam', sans-serif;
+        margin-left: 10px;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #FFFFFF;
+    }
+
+    /* Blocks Section */
+    .blocks {
+        /* Estilos para la sección blocks en vista mobile */
+        width: 93%;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .block {
+        /* Estilos para los bloques en vista mobile */
+        width: 93%;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+
+    .oval {
+        /* Estilos para los óvalos en vista mobile */
+        width: 50px;
+        height: 50px;
+        background-color: #8B48BF;
+        color: #fff;
+        border-radius: 50%;
+        font-size: 24px;
+        font-weight: 700;
+        text-align: center;
+        line-height: 50px;
+        margin-bottom: 10px;
+    }
+
+    .block-subtitle {
+        /* Estilos para los subtítulos en vista mobile */
+        font-size: 16px;
+        font-weight: 700;
+        margin-top: 10px;
+    }
+
+    .block-description {
+        /* Estilos para las descripciones en vista mobile */
+        font-size: 12px;
+        font-weight: 500;
+        margin-top: 10px;
+    }
+
+    /* Best of the Month */
+    .best-of-month {
+        /* Estilos para "Best of the Month" en vista mobile */
+        width: 93%;
+        padding: 10px;
+        background-color: #fff;
+        color: #242E53;
+        text-align: center;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: -0.01em;
+        margin: 20px 0;
+    }
+
+    /* Athlete Blocks */
+    .athlete-blocks {
+        /* Estilos para los bloques de atletas en vista mobile */
+        width: 93%;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .athlete-block1{
+        /* Estilos para los bloques de atletas individuales en vista mobile */
+        width: 93%;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .athlete-block2,.athlete-block3 {
+        display: none;
+    }
+
+    h4{
+        font-weight: bold;
+        color: #3F4868;
+
+    }
+
+    .color-text{
+        color: #B9B9C1;
+
+    }
+
+    .athlete-image-circular img {
+        /* Estilos para las imágenes circulares de atletas en vista mobile */
+        border-radius: 50%;
+        width: 70px;
+        height: 70px;
+        display: block; /* Hace que la imagen sea un bloque */
+        margin-left: auto; /* Margen izquierdo automático */
+        margin-right: auto; /* Margen derecho automático */    }
+
+    .athlete-block p {
+        /* Estilos para los párrafos en vista mobile */
+        display: block; /* Hace que la imagen sea un bloque */
+        margin-left: auto; /* Margen izquierdo automático */
+        margin-right: auto; /* Margen derecho automático */
+        margin-top: 10px;
+    }
+
+    .gofor-button{
+        background-color:#232C50;
+        border: #232C50;
+        border-radius: 25px;
+        color:white;
+        
+    }
+    
+    .blue-background {
+        background-color: #3CDDF3;
+        font-size: larger;
+        text-align: center;
+        color: white;
+        
+    }
+
+    /* Get to Know the Best Teams */
+    /*.get-to-know {
+        /* Estilos para la sección "Get to Know" en vista mobile */
+      /*  width: 93%;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .get-to-know-text {
+        /* Estilos para el texto "Get to Know" en vista mobile */
+   /*     font-size: 24px;
+        font-weight: 700;
+        line-height: 28px;
+        letter-spacing: -0.005em;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+
+    .get-to-know-button {
+        /* Estilos para el botón "Go for it" en vista mobile */
+    /*    width: 93%;
+        padding: 10px 20px;
+        border-radius: 50px;
+        background-color: #fff;
+        color: #8B48BF;
+        border: none;
+        cursor: pointer;
+    }*/
+
+    /* Footer styles */
+    footer {
+        /* Estilos para el footer en vista mobile */
+        width: 93%;
+        padding: 20px;
+        background-color: #1E1E26;
+        color: white;
+    }
+
+    .footer-logo img {
+        /* Estilos para el logo del footer en vista mobile */
+        width: 80px;
+        height: auto;
+        display: flex;
+        justify-content:center;
+
+    }
+
+    .container-rrss{
+        display: flex;
+        color: white;
+        justify-content:space-around;  
+        font-size: 60px;      
+    }
+
+    .logo-rrss:hover{
+        filter: grayscale(70%);
+    }
+
+    footer-menu ul {
+        /* Estilos para el menú del footer en vista mobile */
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0;
+        margin: 20px 0;
+    }
+
+    footer-menu ul li {
+        /* Estilos para los elementos del menú del footer en vista mobile */
+        margin: 0 10px;
+        margin-bottom: 10px;
+    }
+
+    footer-menu ul li a {
+        /* Estilos para los enlaces del menú del footer en vista mobile */
+        text-decoration: none;
+        color: #000;
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+    h6{
+        color: #8C8C94;
+        display: flex;
+
+    }
+
+    .purple-button{
+        background-color:#8B48BF;
+        color: white;
+        border-radius: 40px;
+        border: #8B48BF;
+    }
+
+    .searcher{
+        background-color: white;
+        color: gray;
+        border-radius: 40px;
+        border-color: white;
+        box-shadow: white;
+    }
+
+    #form{
+        display: flex;
+        justify-content: center;
+    }
+
+/*    .subscribe {
+        /* Estilos para la sección de suscripción en vista mobile */
+/*        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .subscribe input[type="text"] {
+        /* Estilos para el campo de entrada en vista mobile */
+/*        width: 100%;
+        border: none;
+        border-radius: 25px;
+        padding: 10px 20px;
+        font-size: 14px;
+        margin: 10px 0;
+    }
+
+    .subscribe button {
+        /* Estilos para el botón de suscripción en vista mobile */
+/*        width: 100%;
+        padding: 10px 20px;
+        border-radius: 25px;
+        background-color: #8B48BF;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+    }*/
+}
